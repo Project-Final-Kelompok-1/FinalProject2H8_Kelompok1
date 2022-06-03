@@ -9,9 +9,6 @@ span {
 }
 .card {
   height: 383px;
-  background-color: #f2f6ff;
-  border-radius: 60px;
-  border: none !important;
 }
 
 .card h5 {
@@ -104,7 +101,6 @@ footer h5 {
   font-weight: 700;
   font-size: 30px;
   line-height: 49px;
- 
 
   color: #234cad;
 }
@@ -164,7 +160,7 @@ footer h5 {
 .cardPerson {
   position: absolute;
   left: 888px;
-  top: 300px;
+  top: 1200px;
 }
 
 .card-person1 {
@@ -430,6 +426,7 @@ footer h5 {
   display: flex;
   margin-left: 100px;
   margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 .text1 .text2 {
@@ -848,3 +845,268 @@ footer h5 {
   line-height: 21px;
   color: #234cad;
 }
+
+/* Header */
+/* Section A start */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,400&display=swap");
+
+:root {
+  --main-color: #f2f6ff;
+  --second-color: #234cad;
+  --body-color: #ffffff;
+
+  --main-font: "Nunito", sans-serif;
+}
+
+/* body {
+  background-color: var(--body-color);
+  font-family: var(--main-font);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: var(--main-font);
+} */
+
+section {
+  margin-top: 100px;
+}
+.menu-navbar {
+  margin: 50px;
+}
+
+.menu-atas {
+  background-color: aqua;
+  padding: 5px;
+  align-items: center;
+}
+
+.nav-item a {
+  color: #234cad;
+}
+
+.btn-login {
+  background-color: white;
+  color: #234cad;
+  height: 50px;
+  width: 135px;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+}
+
+.btn-signup {
+  background-color: #f2f6ff;
+  color: #234cad;
+  height: 50px;
+  width: 135px;
+  border: 2px;
+  border-radius: 25px;
+}
+
+.head {
+  background-color: var(--main-color);
+  height: 575px;
+  border-radius: 60px;
+}
+
+.left {
+  padding: 180px;
+  margin-left: 100px;
+  color: #234cad;
+}
+
+.left h1 {
+  font-weight: 700;
+}
+
+.get {
+  font-weight: 700;
+  color: #234cad;
+  height: 50px;
+  width: 135px;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.paper {
+  height: 75px;
+  width: 75px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.img-paper {
+  display: table-cell;
+  height: 75px;
+  text-align: center;
+  width: 75px;
+  vertical-align: middle;
+}
+
+.upload {
+  margin-top: 30px;
+  height: 100px;
+  width: 320px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.text-upload {
+  color: var(--second-color);
+  display: table-cell;
+  height: 100px;
+  width: 1300px;
+  vertical-align: middle;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.ket {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+}
+.time {
+  margin-right: 20px;
+  float: right;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.icon {
+  float: left;
+}
+
+.img-upload {
+  display: table-cell;
+  height: 100px;
+  text-align: center;
+  width: 88px;
+  vertical-align: middle;
+}
+
+.team {
+  margin-top: 25px;
+  height: 160px;
+  width: 260px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.nama {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+  text-align: center;
+  margin-left: 25px;
+  border: 2px solid #ffffff;
+  float: left;
+}
+.nama2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+  text-align: center;
+  margin-left: -12px;
+  border: 2px solid #ffffff;
+  float: left;
+}
+
+.lingkar1 {
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 10px;
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.js {
+  margin-top: 25px;
+  height: 100px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.upload2 {
+  height: 160px;
+  width: 140px;
+  position: absolute;
+  right: 19.64%;
+  left: 350px;
+  top: 50px;
+  bottom: 61.37%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.img-big {
+  display: table-cell;
+  height: 150px;
+  text-align: center;
+  width: 140px;
+  vertical-align: middle;
+}
+
+.ket2 {
+  margin-top: 10px;
+  color: var(--second-color);
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.ab {
+  /* margin-left: 25px; */
+  height: 100px;
+  width: 350px;
+  position: absolute;
+  left: 290px;
+  /* right: 10.84%; */
+  top: 230px;
+  bottom: 40.92%;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.save {
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  left: 380px;
+  right: 3.64%;
+  top: 70%;
+  bottom: 20.46%;
+
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.notif {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  left: 350px;
+  right: 25.45%;
+  top: 95%;
+  bottom: 4.09%;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+/* End */
+

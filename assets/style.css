@@ -1,0 +1,328 @@
+@font-face {
+  font-family: Nunito;
+  src: url(.//font/static/Nunito-Black.ttf);
+}
+
+
+h1{
+  color:#234CAD;
+}
+
+h5{
+  color:#234CAD;
+}
+
+h6{
+  color:#234CAD;
+  font-size: smaller;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+.custom-search {
+  position: relative;
+  width: 500px;
+}
+.custom-search-input {
+  width: 500px; 
+  height: 65px; 
+  border-radius: 17.5px; 
+  border: 0;
+  line-height: 1;
+}
+.custom-search-botton {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 3px; 
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #234CAD;
+  color: #fff;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border-radius: 12.5px;
+  z-index: 2;
+
+  font-size: 25px;
+}
+
+
+/* Section A start */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,400&display=swap');
+
+:root {
+    --main-color: #F2F6FF;
+    --second-color:  #234CAD;
+    --body-color :  #FFFFFF;
+
+    --main-font : 'Nunito', sans-serif;
+}
+
+body{
+    background-color: var(--body-color);
+    font-family: var(--main-font);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--main-font);
+}
+
+section{
+    margin-top: 100px;
+}
+.menu-navbar{
+    margin: 50px;
+}
+
+.menu-atas{
+    background-color: aqua;
+    padding: 5px;
+    align-items: center;
+}
+
+.nav-item a{
+    color: #234CAD;
+}
+
+.btn-login{
+    background-color: white;
+    color: #234CAD;
+    height: 50px;
+    width: 135px;
+    border: 2px solid #234CAD;
+    border-radius: 25px;
+}
+
+.btn-signup{
+    background-color: #F2F6FF;
+    color: #234CAD;
+    height: 50px;
+    width: 135px;
+    border: 2px;
+    border-radius: 25px;
+}
+
+.head{
+    background-color: var(--main-color);
+    height: 575px;
+    border-radius: 60px;
+}
+
+.left{
+    padding: 180px;
+    margin-left: 100px;
+    color: #234CAD;
+    
+}
+
+.left h1{
+    font-weight: 700;
+}
+
+
+.get{
+    font-weight: 700;
+    color: #234CAD;
+    height: 50px;
+    width: 135px;
+    border: 2px solid #234CAD;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.paper{
+    height:75px;
+    width: 75px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.img-paper{
+    display: table-cell;
+    height: 75px;
+    text-align: center;
+    width: 75px;
+    vertical-align: middle;
+}
+
+.upload{
+    margin-top: 30px;
+    height: 100px;
+    width: 320px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.text-upload{
+    color: var(--second-color);
+    display: table-cell;
+    height: 100px;
+    width: 1300px;
+    vertical-align: middle;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ket{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+.time{
+    margin-right: 20px;
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.icon{
+    float: left;
+}
+
+.img-upload{
+    display: table-cell;
+    height: 100px;
+    text-align: center;
+    width: 88px;
+    vertical-align: middle;
+}
+
+
+.team{
+    margin-top: 25px;
+    height: 160px;
+    width: 260px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.nama{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: var(--main-color);
+    text-align: center;
+    margin-left: 25px;
+    border: 2px solid #FFFFFF;
+    float: left;
+    
+}
+.nama2{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: var(--main-color);
+    text-align: center;
+    margin-left: -12px;
+    border: 2px solid #FFFFFF;
+    float: left;
+    
+}
+
+.lingkar1{
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 10px;
+    display: table-cell;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.js{
+    margin-top: 25px;
+    height: 100px;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.upload2{
+    height: 160px;
+    width: 140px;
+    position: absolute;
+    left: 70.91%;
+    right: 19.64%;
+    top: 12.44%;
+    bottom: 61.37%;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.img-big{
+    display: table-cell;
+    height: 150px;
+    text-align: center;
+    width: 140px;
+    vertical-align: middle;
+}
+
+.ket2{
+    margin-top: 10px;
+    color: var(--second-color);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+
+.ab{
+    /* margin-left: 25px; */
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    /* right: 10.84%; */
+    top: 47.5%;
+    bottom: 40.92%;
+
+    background: #FFFFFF;
+    border-radius: 20px
+}
+
+.save{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    left: 65%;
+    right: 3.64%;
+    top: 70%;
+    bottom: 20.46%;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.notif{
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    left: 65%;
+    right: 25.45%;
+    top: 95%;
+    bottom: 4.09%;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+/* Section A end */
